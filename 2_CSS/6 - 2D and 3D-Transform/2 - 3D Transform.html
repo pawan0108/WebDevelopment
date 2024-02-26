@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Transform</title>
+    <style>
+        div{
+            height: 150px;
+            width: 150px;
+            background-color: aqua;
+            border: 1px solid black;
+        }
+        .translated{
+           transform: perspective(10px) translateZ(10px);
+        }
+        /* .static{
+
+        } */
+
+        .scaled{
+         margin-left: 200px;
+         transform: perspective(350px) scaleZ(3) rotateX(45deg) rotateY(30deg);
+        }
+
+        .div1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+/* i think this is Error type mistack */
+/* .div1:hover {
+  width: 50px;
+  height:20px;
+  transform:scale(2 , 2);
+}
+    </style>
+</head>
+<body>
+    <div class="static">Static</div>
+    <div class="translated">Translated</div>
+    <div class="scaled">Scaled</div>
+    <div class="div1">ABCD</div> */
+</body>
+</html>

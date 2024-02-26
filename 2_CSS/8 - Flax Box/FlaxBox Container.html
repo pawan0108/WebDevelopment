@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flax Box</title>
+  <style>
+    .box {
+      border: 1px solid brown;
+      background-color: aquamarine;
+      width: 50px;
+      height: 20px;
+      margin: 2px;
+    }
+
+    .container {
+      height: 400px;
+      /* width: 500px;  */
+      border: 2px solid green;
+      display: flex;
+      /* flex-direction: row; */
+      /* flex-direction: column; */
+      /* flex-direction: row-reverse; */
+      /* flex-direction: column-reverse; */
+
+          flex-wrap: wrap;
+        /* flex-wrap: nowrap; */
+        /* flex-wrap: wrap-reverse; */
+
+
+        /* flex-flow: row wrap; */
+
+
+        /* justify-content: space-between; */
+        /* justify-content: center; */
+        /* justify-content: end;
+        justify-content: start;
+        justify-content: right;
+        justify-content: space-around;
+        justify-content: space-between;
+        justify-content: space-evenly;
+        justify-content: stretch;   */
+
+
+        /* align-items: stretch; */
+        /* align-items: center; */
+        /* align-items: flex-start; */
+        /* align-items: flex-end;  */
+        /* align-items: stretch; */
+        /* align-content: space-evenly; */
+
+
+        align-content: space-between;
+      /* 
+        align-content: center;
+        align-content: flex-end;
+        align-content: flex-start;
+        align-content: space-between;
+        align-content: space-around;
+        align-content: space-evenly; */
+
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">box-1</div>
+    <div class="box">box-2</div>
+    <div class="box">box-3</div>
+    <div class="box">box-4</div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+        .div1 {
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(green, red, blue, yellow);
+        }
+
+        .div2 {
+            height: 200px;
+            width: 200px;
+            background-image: radial-gradient(yellow, red, blue, green);
+        }
+
+        .div3 {
+            float: right;
+            margin: 10px;
+            width: 200px;
+            height: 200px;
+            background-image: conic-gradient(red, blue, yellow);
+            border-radius: 50%;
+        }
+      /* CSS Gradient Linear */
+        #a {
+            border: 1px solid black;
+            height: 200px;
+            width: 150px;
+            background-image: linear-gradient(to left,red, blue);
+            /* background-image: linear-gradient(to left bottom, red, blue); */
+            float: right;
+        }
+
+        #b {
+            border: 1px solid black;
+            height: 200px;
+            width: 150px;
+            background-image: linear-gradient(to bottom , red,blue);
+            background-image: linear-gradient(to bottom right,red, blue);
+            float: right;
+        }
+
+        #c {
+            border: 1px solid black;
+            height: 200px;
+            width: 150px;
+            background-image: linear-gradient(to top, red,blue);
+            background-image: linear-gradient(to top left, red, blue);
+            float: right;
+        }
+
+        #d {
+            border: 1px solid black;
+            height: 200px;
+            width: 150px;
+            background-image: linear-gradient(to right,red, blue);
+            background-image: linear-gradient(to right top, red, blue);
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+
+    </div>
+    <div class="div3">
+
+    </div>
+    <br>
+    <div class="div2">
+
+    </div>
+
+    <!--  CSS Gradient Linear -->
+
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+    <div id="d"></div>
+</body>
+
+</html>

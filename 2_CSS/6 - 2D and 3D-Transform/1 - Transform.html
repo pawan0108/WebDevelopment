@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+    div{
+        background-color: aqua;
+        height: 30px;
+        width: 50%;
+    }
+    /* Shift div 1st 100px x exis and 2nd y exis */
+    /* .div1{
+        transform: translate(100px, 100px); 
+    }  */
+    /* Rotate div in degree wise */
+        /* if you give Positive value the div Rotate Clock wise else if you give negative value the div ratate anti-clock wise */
+    /* div{
+        transform: rotate(45deg);
+        /* transform: rotate(-45deg); 
+    } */
+    /* Scaling x and y exis div size */
+    /* #div2{
+        margin: 200px;
+        transform: scale(1,2);
+    } */
+    .div2{
+        transform: translate(100px, 100px);
+        transform: skew(-50deg);
+        transform: skewx(-50deg);
+        transform: skewy(-50deg);
+    }
+
+    /* .div2{
+      transform: matrix(1,1,2,1,90,90);
+    } */
+    </style>
+</head>
+<body>
+    <div id="div2" class="div2">This is a div </div>
+</body>
+</html>
